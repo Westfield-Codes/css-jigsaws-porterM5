@@ -14,31 +14,31 @@
         
 
         /* hide the in/out messages*/
-      #rachel{
+      #rachel img{
          filter:grayscale()
       }
-      #monica{
+      #monica img{
          filter:grayscale()
       }
-      #ross{
+      #ross img{
          filter:grayscale()
       }
-      #rachel:hover{
+      #rachel:hover img{
          opacity: 0.4;
       }
-      #monica:hover{
+      #monica:hover img{
          opacity: 0.4;
       }
-      #pheobe:hover{
+      #pheobe:hover img{
          opacity: 0.4;
       }
-      #ross:hover{
+      #ross:hover img{
          opacity: 0.4;
       }
-      #joey:hover{
+      #joey:hover img{
          opacity: 0.4;
       }
-      #chandler:hover{
+      #chandler:hover img{
          opacity: 0.4;
       }
         /* grayscale filter the out images */
@@ -51,12 +51,14 @@
         
         /* show the status message */
   
-.middle{
-   display:none;
+ .middle {
+   opacity:0;
 }
-.rachel:hover .middle{
-   display:block;
+ .middle:hover {
+ opacity:1;
+ z-index: 100;
 }
+
       </style>
    </head>
    <body>
